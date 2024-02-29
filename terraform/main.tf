@@ -218,7 +218,7 @@ ${local.ec2_user_data_base}
 
 mkdir -p /docker_projects/sb_2024_02_29_1/source
 cd /docker_projects/sb_2024_02_29_1/source
-git clone https://github.com/jhs512/sb-2024-02-29 .
+git clone https://github.com/i-am-jiwon/sb-2024-02-29 .
 
 # 도커 이미지 생성
 docker build -t sb_2024_02_29_1:1 .
