@@ -11,15 +11,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
     @Value("${custom.jwt.secretKey}")
     private String jwtSecretKey;
+
     @GetMapping("/")
     @ResponseBody
-    public String showMain(){
-        return "Hello, world22231";
+    public String showMain() {
+        return "5555";
     }
 
     @GetMapping("/jwtSecretKey")
     @ResponseBody
-    public String showJwtSecretKey(){
+    public String showJwtSecretKey() {
         return jwtSecretKey;
     }
 }
