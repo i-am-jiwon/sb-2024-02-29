@@ -63,5 +63,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ env.OWNER_LC }}/sb_2024_02_20:${{ needs.makeTagAndRelease.outputs.tag_name }},
-            ghcr.io/${{ env.OWNER_LC }}/sb_2024_02_20:latest
+            ghcr.io/${{ env.OWNER_LC }}/sb_2024_02_29:${{ needs.makeTagAndRelease.outputs.tag_name }},
+            ghcr.io/${{ env.OWNER_LC }}/sb_2024_02_29:latest
